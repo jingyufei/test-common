@@ -50,15 +50,4 @@ public class User implements Serializable{
 	public String toString() {
 		return "User [id=" + id + ", name=" + name + ", age=" + age + "]";
 	}
-	
-//	public synchronized void userInfo(User user){
-//		System.out.println("当前线程：" +Thread.currentThread().getName());
-//		System.out.println(user.toString());
-//		try {
-//			Thread.sleep(5000);
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//	}
 }
